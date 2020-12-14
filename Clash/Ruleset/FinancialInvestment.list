@@ -1,7 +1,9 @@
 # 内容：期货金融投资
-# 数量：5条
+# 数量：7条
 DOMAIN-SUFFIX,mybtcc.com
 DOMAIN-SUFFIX,btfx168.com
 DOMAIN-SUFFIX,btfx.com
 DOMAIN-SUFFIX,rongks.com
 DOMAIN-SUFFIX,tradeglzx.com
+DOMAIN-SUFFIX,btcc.co
+IP-CIDR,45.195.255.185/32,no-resolve
