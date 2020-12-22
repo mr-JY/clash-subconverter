@@ -4,7 +4,7 @@
 #字体文件（Google Fonts）
 #字体文件（Google Fonts）
 #Gravatar全球头像
-# 数量：6条
+# 数量：5条
 DOMAIN-SUFFIX,ajax.googleapis.com
 DOMAIN-SUFFIX,fonts.googleapis.com
 DOMAIN-SUFFIX,gstatic.com
