@@ -1,7 +1,12 @@
 # 内容：GoogleServices 谷歌公共服务
+#Google前端库（Google Hosted Libraries）
+#谷歌字体库（Google Fonts）
+#字体文件（Google Fonts）
+#字体文件（Google Fonts）
+#Gravatar全球头像
 # 数量：5条
-DOMAIN-SUFFIX,ajax.googleapis.com #Google前端库（Google Hosted Libraries）
-DOMAIN-SUFFIX,fonts.googleapis.com #谷歌字体库（Google Fonts）
-DOMAIN-SUFFIX,fonts.gstatic.com #字体文件（Google Fonts）
-DOMAIN-SUFFIX,themes.googleusercontent.com #字体文件（Google Fonts）
-DOMAIN-SUFFIX,gravatar.com #Gravatar全球头像
+DOMAIN-SUFFIX,ajax.googleapis.com 
+DOMAIN-SUFFIX,fonts.googleapis.com 
+DOMAIN-SUFFIX,fonts.gstatic.com 
+DOMAIN-SUFFIX,themes.googleusercontent.com 
+DOMAIN-SUFFIX,gravatar.com
