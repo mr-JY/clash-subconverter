@@ -5,3 +5,4 @@ DOMAIN-SUFFIX,emby.nexitally.com
 DOMAIN-SUFFIX,jellyfin.xeton.dev
 DOMAIN-SUFFIX,emby.wtf
 DOMAIN-KEYWORD,emby
+IP-CIDR,38.94.111.238/32
