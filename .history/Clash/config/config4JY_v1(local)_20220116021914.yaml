@@ -1,0 +1,769 @@
+proxy-providers:
+  🚀 节点选择:
+    type: http
+    url: "https://naixisubs.com/downloadConfig/Clash.aspx?t=trojan&eq=windows&urk=a53b0386-265b-4490-8e0b-9016f9145c14"
+    path: ./cnix.yaml
+    interval: 7200
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+allow-lan: false
+mode: Rule
+log-level: debug
+ipv6: false
+hosts:
+  mtalk.google.com: 108.177.125.188
+  services.googleapis.cn: 216.58.200.67
+  raw.githubusercontent.com: 151.101.76.133
+  www.google.cn: 216.58.200.67
+external-controller: 0.0.0.0:9090
+clash-for-android:
+  append-system-dns: false
+profile:
+  tracing: true
+dns:
+  enable: true
+  listen: 127.0.0.1:8853
+  default-nameserver:
+    - 223.5.5.5
+    - 1.0.0.1
+  nameserver:
+    - tls://223.5.5.5:853
+    - 114.114.114.114
+    - 119.29.29.29
+    - 180.76.76.76
+    - https://223.6.6.6/dns-query
+    - https://rubyfish.cn/dns-query
+    - https://dns.pub/dns-query
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.localdomain'
+    - '*.example'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
+    - '*.local'
+    - '*.home.arpa'
+    - router.asus.com
+    - localhost.sec.qq.com
+    - localhost.ptlogin2.qq.com
+    - '+.msftconnecttest.com'
+    - stun.*.*.*
+    - stun.*.*
+    - time.windows.com
+    - time.nist.gov
+    - time.apple.com
+    - time.asia.apple.com
+    - '*.ntp.org.cn'
+    - '*.openwrt.pool.ntp.org'
+    - time1.cloud.tencent.com
+    - time.ustc.edu.cn
+    - pool.ntp.org
+    - ntp.ubuntu.com
+    - ntp.aliyun.com
+    - ntp1.aliyun.com
+    - ntp2.aliyun.com
+    - ntp3.aliyun.com
+    - ntp4.aliyun.com
+    - ntp5.aliyun.com
+    - ntp6.aliyun.com
+    - ntp7.aliyun.com
+    - time1.aliyun.com
+    - time2.aliyun.com
+    - time3.aliyun.com
+    - time4.aliyun.com
+    - time5.aliyun.com
+    - time6.aliyun.com
+    - time7.aliyun.com
+    - '*.time.edu.cn'
+    - time1.apple.com
+    - time2.apple.com
+    - time3.apple.com
+    - time4.apple.com
+    - time5.apple.com
+    - time6.apple.com
+    - time7.apple.com
+    - time1.google.com
+    - time2.google.com
+    - time3.google.com
+    - time4.google.com
+    - music.163.com
+    - '*.music.163.com'
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - '*.y.qq.com'
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - '*.xiami.com'
+    - '*.music.migu.cn'
+    - music.migu.cn
+    - '*.msftncsi.com'
+    - '*.*.*.srv.nintendo.net'
+    - '*.*.stun.playstation.net'
+    - xbox.*.*.microsoft.com
+    - '*.ipv6.microsoft.com'
+    - '*.*.xboxlive.com'
+    - speedtest.cros.wr.pvp.net
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - 114.114.114.114
+    - 180.76.76.76
+    - 119.29.29.29
+    - 223.5.5.5
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
+
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - ♻️ 自动选择
+      - 🔯 故障转移
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🚀 手动切换
+    type: select
+    use:
+      - CNIX
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 100
+    proxies:
+      - 40.47 GB | 500.00 GB
+      - Traffic Reset：23 Days Left
+      - Expire Date：2022/08/16
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 Hong Kong 09
+      - 🇭🇰 Hong Kong 10
+      - 🇭🇰 Hong Kong 11
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 Hong Kong 13
+      - 🇭🇰 Hong Kong 14
+      - 🇭🇰 Hong Kong 15
+      - 🇭🇰 Hong Kong 16
+      - 🇭🇰 Hong Kong 17
+      - 🇭🇰 Hong Kong 18
+      - 🇭🇰 Hong Kong 19
+      - 🇭🇰 Hong Kong 20 [Premium]
+      - 🇭🇰 Hong Kong 21 [Premium]
+      - 🇭🇰 Hong Kong 22 [Premium]
+      - 🇭🇰 Hong Kong 23 IPv4 Stream
+      - 🇺🇲 United States 01
+      - 🇺🇲 United States 02
+      - 🇺🇲 United States 03
+      - 🇺🇲 United States 04 [Premium]
+      - 🇺🇲 United States 05 [Premium]
+      - 🇺🇲 United States 06 [Premium]
+      - 🇺🇲 United States 07 [Premium]
+      - 🇺🇲 United States 08
+      - 🇺🇲 United States 09
+      - 🇺🇲 United States 10
+      - 🇺🇲 United States 11
+      - 🇺🇲 United States 12
+      - 🇺🇲 United States 13
+      - 🇺🇲 United States 14 [Premium]
+      - 🇺🇲 United States 15 [Premium]
+      - 🇺🇲 United States 16 IPv4 Stream
+      - 🇺🇲 United States 17 IPv4 Stream
+      - 🇯🇵 Japan 01
+      - 🇯🇵 Japan 02
+      - 🇯🇵 Japan 03
+      - 🇯🇵 Japan 04
+      - 🇯🇵 Japan 05
+      - 🇯🇵 Japan 06
+      - 🇯🇵 Japan 07
+      - 🇯🇵 Japan 08
+      - 🇯🇵 Japan 09
+      - 🇯🇵 Japan 10
+      - 🇯🇵 Japan 11
+      - 🇯🇵 Japan 12
+      - 🇯🇵 Japan 13
+      - 🇯🇵 Japan 14
+      - 🇯🇵 Japan 15
+      - 🇯🇵 Japan 16
+      - 🇯🇵 Japan 17
+      - 🇯🇵 Japan 18
+      - 🇯🇵 Japan 19
+      - 🇯🇵 Japan 20
+      - 🇯🇵 Japan 21
+      - 🇯🇵 Japan 22 [Premium]
+      - 🇯🇵 Japan 23 [Premium]
+      - 🇳🇱 Netherlands
+      - 🇷🇺 Russia St.Peterburg
+      - 🇷🇺 Russia Moscow
+      - 🇩🇪 Germany 1
+      - 🇩🇪 Germany 2
+      - 🇫🇷 France
+      - 🇬🇧 United Kingdom 1
+      - 🇬🇧 United Kingdom 2
+      - 🇬🇧 United Kingdom 3
+      - 🇸🇪 Sweden
+      - 🇧🇬 Bulgaria
+      - 🇺🇲 Austria
+      - 🇮🇪 Ireland 1
+      - 🇮🇪 Ireland 2
+      - 🇮🇱 Israel
+      - 🇮🇹 Italy
+      - 🇭🇺 Hungary
+      - 🇰🇷 Korea 1
+      - 🇰🇷 Korea 2
+      - 🇰🇷 Korea 3 [Premium]
+      - 🇰🇷 Korea 4
+      - 🇨🇳 Taiwan 1
+      - 🇨🇳 Taiwan 2
+      - 🇨🇳 Taiwan 3
+      - 🇨🇳 Taiwan 4
+      - 🇨🇳 Taiwan 5
+      - 🇨🇦 Canada 1
+      - 🇨🇦 Canada 2
+      - 🇦🇺 Australia Sydney 01 [Premium]
+      - 🇦🇺 Australia Sydney 02
+      - 🇮🇳 India 1
+      - 🇮🇳 India 2
+      - 🇮🇩 Indonesia 01
+      - 🇧🇷 Brazil 01
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 Singapore 06
+      - 🇸🇬 Singapore 07
+      - 🇸🇬 Singapore 08
+      - 🇸🇬 Singapore 09
+      - 🇸🇬 Singapore 10
+      - 🇸🇬 Singapore 11 [Premium]
+      - 🇸🇬 Singapore 12 IPv4 Stream
+  - name: 🔯 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 1200
+    tolerance: 500
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - ♻️ 自动选择
+  - name: 📲 电报消息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🎥 奈飞节点
+      - 🇸🇬 狮城节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎦 佩奇影业
+    type: select
+    proxies:
+      - DIRECT
+      - 🎦 Emby节点
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 狮城节点
+      - 🚀 手动切换
+  - name: 🎌 漫画全球
+    type: select
+    proxies:
+      - 🇨🇳 台湾节点
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🇨🇳 台湾节点
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇨🇳 台湾节点
+      - 🇭🇰 香港节点
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🚀 手动切换
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🪐 谷歌Services
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🌐 微软Studio
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 💰 期货金融
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🎶 网易音乐
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🇭🇰 香港节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 100
+    proxies:
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 Hong Kong 09
+      - 🇭🇰 Hong Kong 10
+      - 🇭🇰 Hong Kong 11
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 Hong Kong 13
+      - 🇭🇰 Hong Kong 14
+      - 🇭🇰 Hong Kong 15
+      - 🇭🇰 Hong Kong 16
+      - 🇭🇰 Hong Kong 17
+      - 🇭🇰 Hong Kong 18
+      - 🇭🇰 Hong Kong 19
+      - 🇭🇰 Hong Kong 20 [Premium]
+      - 🇭🇰 Hong Kong 21 [Premium]
+      - 🇭🇰 Hong Kong 22 [Premium]
+  - name: 🇯🇵 日本节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 100
+    proxies:
+      - 🇯🇵 Japan 01
+      - 🇯🇵 Japan 02
+      - 🇯🇵 Japan 03
+      - 🇯🇵 Japan 04
+      - 🇯🇵 Japan 05
+      - 🇯🇵 Japan 06
+      - 🇯🇵 Japan 07
+      - 🇯🇵 Japan 08
+      - 🇯🇵 Japan 09
+      - 🇯🇵 Japan 10
+      - 🇯🇵 Japan 11
+      - 🇯🇵 Japan 12
+      - 🇯🇵 Japan 13
+      - 🇯🇵 Japan 14
+      - 🇯🇵 Japan 15
+      - 🇯🇵 Japan 16
+      - 🇯🇵 Japan 17
+      - 🇯🇵 Japan 18
+      - 🇯🇵 Japan 19
+      - 🇯🇵 Japan 20
+      - 🇯🇵 Japan 21
+      - 🇯🇵 Japan 22 [Premium]
+      - 🇯🇵 Japan 23 [Premium]
+  - name: 🇺🇲 美国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 100
+    proxies:
+      - 🇺🇲 United States 01
+      - 🇺🇲 United States 02
+      - 🇺🇲 United States 03
+      - 🇺🇲 United States 04 [Premium]
+      - 🇺🇲 United States 05 [Premium]
+      - 🇺🇲 United States 06 [Premium]
+      - 🇺🇲 United States 07 [Premium]
+      - 🇺🇲 United States 08
+      - 🇺🇲 United States 09
+      - 🇺🇲 United States 10
+      - 🇺🇲 United States 11
+      - 🇺🇲 United States 12
+      - 🇺🇲 United States 13
+      - 🇺🇲 United States 14 [Premium]
+      - 🇺🇲 United States 15 [Premium]
+  - name: 🇨🇳 台湾节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 100
+    proxies:
+      - 🇨🇳 Taiwan 1
+      - 🇨🇳 Taiwan 2
+      - 🇨🇳 Taiwan 3
+      - 🇨🇳 Taiwan 4
+      - 🇨🇳 Taiwan 5
+  - name: 🇸🇬 狮城节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 100
+    proxies:
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 Singapore 06
+      - 🇸🇬 Singapore 07
+      - 🇸🇬 Singapore 08
+      - 🇸🇬 Singapore 09
+      - 🇸🇬 Singapore 10
+      - 🇸🇬 Singapore 11 [Premium]
+  - name: 🇰🇷 韩国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 100
+    proxies:
+      - 🇰🇷 Korea 1
+      - 🇰🇷 Korea 2
+      - 🇰🇷 Korea 3 [Premium]
+      - 🇰🇷 Korea 4
+  - name: 🎥 奈飞节点
+    type: select
+    proxies:
+      - 🇭🇰 Hong Kong 23 IPv4 Stream
+      - 🇺🇲 United States 16 IPv4 Stream
+      - 🇺🇲 United States 17 IPv4 Stream
+      - 🇸🇬 Singapore 12 IPv4 Stream
+  - name: 🎦 Emby节点
+    type: select
+    proxies:
+      - 🇭🇰 Hong Kong 23 IPv4 Stream
+      - 🇺🇲 United States 16 IPv4 Stream
+      - 🇺🇲 United States 17 IPv4 Stream
+      - 🇸🇬 Singapore 12 IPv4 Stream
+
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  greatfire:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt"
+    path: ./ruleset/greatfire.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,applications,🎯 全球直连
+  - DOMAIN,clash.razord.top,🎯 全球直连
+  - DOMAIN,yacd.haishan.me,🎯 全球直连
+  - RULE-SET,private,🎯 全球直连
+  - RULE-SET,reject,🛑 广告拦截
+  - DOMAIN,www.icloud.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+  - RULE-SET,icloud,🍎 苹果服务
+  - RULE-SET,apple,🍎 苹果服务
+  - RULE-SET,google,📢 谷歌FCM
+  - RULE-SET,proxy,🚀 节点选择
+  - RULE-SET,direct,🎯 全球直连
+  - RULE-SET,lancidr,🎯 全球直连
+  - RULE-SET,cncidr,🎯 全球直连
+  - RULE-SET,telegramcidr,📲 电报消息
+  - RULE-SET,tld-not-cn,🚀 节点选择
+  - RULE-SET,gfw,🚀 节点选择
+  - RULE-SET,greatfire,🚀 节点选择
+  - GEOIP,,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🚀 节点选择
+
+
+#直连域名列表 direct.txt
+#代理域名列表 proxy.txt
+#广告域名列表 reject.txt
+#私有网络专用域名列表 private.txt
+#Apple 在中国大陆可直连的域名列表 apple.txt
+#iCloud 域名列表 icloud.txt
+#[慎用]Google 在中国大陆可直连的域名列表 google.txt
+#GFWList 域名列表 gfw.txt
+#GreatFire 域名列表 greatfire.txt
+#非中国大陆使用的顶级域名列表 tld-not-cn.txt
+#Telegram 使用的 IP 地址列表 telegramcidr.txt
+#局域网 IP 及保留 IP 地址列表 lancidr.txt
+#中国大陆 IP 地址列表 cncidr.txt
+#需要直连的常见软件列表 applications.txt
