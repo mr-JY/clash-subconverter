@@ -783,34 +783,6 @@ rule-providers:
     path: ./ruleset/ChinaDomain.yaml
     interval: 86400
 
-  Unbreak:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml"
-    path: ./ruleset/Unbreak.yaml
-    interval: 86400
-
-  Streaming:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Streaming.yaml"
-    path: ./ruleset/Streaming.yaml
-    interval: 86400
-
-  Global:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml"
-    path: ./ruleset/Global.yaml
-    interval: 86400
-
-  China:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml"
-    path: ./ruleset/China.yaml
-    interval: 86400
-
 rules:
   - RULE-SET,applications,🎯 全球直连
   - DOMAIN,clash.razord.top,🎯 全球直连
@@ -818,7 +790,6 @@ rules:
   - RULE-SET,private,🎯 全球直连
   - RULE-SET,steamCN,🎯 全球直连
   - RULE-SET,othercn,🎯 全球直连
-  - RULE-SET,Unbreak,🎯 全球直连
   - RULE-SET,reject,🛑 广告拦截
   # - RULE-SET,banprogramAD,🍃 应用净化
   - RULE-SET,googleFCM,📢 谷歌FCM
@@ -843,14 +814,11 @@ rules:
   - RULE-SET,BilibiliPlus,📺 哔哩哔哩
   - RULE-SET,Manga,🎌 漫画全球
   - RULE-SET,ChinaMedia,🌏 国内媒体
-  - RULE-SET,Streaming,🌏 国内媒体
   - RULE-SET,ProxyMedia,🌍 国外媒体
   - RULE-SET,GlobalForum,🌍 国外媒体
   - RULE-SET,GlobalMedia,🌍 国外媒体
   - RULE-SET,proxy,🚀 节点选择
-  - RULE-SET,Global,🚀 节点选择
   - RULE-SET,direct,🎯 全球直连
-  - RULE-SET,China,🎯 全球直连
   - RULE-SET,ChinaDomain,🎯 全球直连
   - RULE-SET,lancidr,🎯 全球直连
   - RULE-SET,cncidr,🎯 全球直连
