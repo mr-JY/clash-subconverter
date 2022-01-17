@@ -121,8 +121,6 @@ dns:
     - https://223.6.6.6/dns-query
     - https://rubyfish.cn/dns-query
     - https://dns.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    - https://dns.google/dns-query
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
