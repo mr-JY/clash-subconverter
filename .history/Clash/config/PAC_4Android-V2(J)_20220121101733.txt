@@ -3,7 +3,7 @@
 // Time: 2021-12-11T12:12:22
 // https://raw.githubusercontent.com/mr-JY/clash-subconverter/main/Clash/config/PAC_4Android-V2(J).txt
 
-var __PROXY__ = '192.168.50.51:7890'
+var __PROXY__ = '192.168.50.1:7890'
 var proxy = __PROXY__;
 var direct = "DIRECT";
 
