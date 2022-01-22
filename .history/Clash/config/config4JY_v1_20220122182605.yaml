@@ -811,7 +811,7 @@ rule-providers:
 
   CCC-CN:
     type: http
-    behavior: classical
+    behavior: ipcidr
     url: "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/CCC-CN.yaml"
     path: ./ruleset/CCC-CN.yaml
     interval: 86400
