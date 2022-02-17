@@ -457,6 +457,18 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
       - 🚀 手动切换
+  - name: 🗄 切服
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
   - name: 🎶 网易音乐
     type: select
     proxies:
@@ -845,6 +857,13 @@ rule-providers:
     path: ./ruleset/China.yaml
     interval: 86400
 
+  ENLISTED:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/mr-JY/clash-subconverter/main/Clash/Providers/Ruleset/ENLISTED.yaml"
+    path: ./ruleset/China.yaml
+    interval: 86400
+
 rules:
   - RULE-SET,applications,🎯 全球直连
   - DOMAIN,clash.razord.top,🎯 全球直连
@@ -869,6 +888,7 @@ rules:
   - RULE-SET,Epic,🎮 游戏平台
   - RULE-SET,Sony,🎮 游戏平台
   - RULE-SET,Steam,🎮 游戏平台
+  - RULE-SET,ENLISTED,🗄 切服
   - RULE-SET,YouTube,📹 油管视频
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,Emby,🎦 佩奇影业
