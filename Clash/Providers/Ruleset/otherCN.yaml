@@ -1,6 +1,6 @@
 payload:
   # 内容：otherCN
-  # 数量：19条
+  # 数量：20条
   - DOMAIN-SUFFIX,dota2.com
   - DOMAIN-SUFFIX,acgdmzy.com
   - DOMAIN-SUFFIX,ximalaya.com
@@ -11,6 +11,7 @@ payload:
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN,mail.139.com
   - DOMAIN,scdown.tcdn.qq.com
+  - DOMAIN,bianyuan.xyz
   - IP-CIDR,101.32.104.4/32,no-resolve
   - IP-CIDR,101.32.104.41/32,no-resolve
   - IP-CIDR,101.32.104.56/32,no-resolve
