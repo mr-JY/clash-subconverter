@@ -15,7 +15,7 @@ proxy-providers:
     # https%3A%2F%2Frss-node.com%2Flink%2FJFeFvvq4zEEEJ3Vi%3Fmu%3D1 (https://rss-node.com/link/JFeFvvq4zEEEJ3Vi?mu=1)
     #           :(%3A) /(%2F) .(.) ?(%3F) =(%3D) -(-)                                                                                                            ^(?!.*(3x|IPv4 Stream)).*(港|HK|Hong Kong).*$  %5E(%3F!.*(3x%7CIPv4%20Stream)).*(%E6%B8%AF%7CHK%7CHong%20Kong).*%24
     #url: "https://naixisubs.com/downloadConfig/Clash.aspx?t=trojan&eq=windows&urk=42b67b11-1037-421b-9da3-a5ceadbb0d52&filter=HK"
-    url: "https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Frss-node.com%2Flink%2FJFeFvvq4zEEEJ3Vi%3Fmu%3D1&insert=false&include=%5E(%3F!.*(Lil%7CPlay%7C%E5%8F%B0%7C%E6%97%A5%E6%9C%AC%7C%E7%BE%8E%7C%E5%9D%A1%7C%E9%9F%A9)).*(Large%7C%E6%B8%AF%7CHK%7CHong%20Kong).*%24&emoji=true&list=false&tfo=false&fdn=false&sort=false&udp=true&new_name=true"
+    url: "https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Frss-node.com%2Flink%2FJFeFvvq4zEEEJ3Vi%3Fmu%3D1&insert=false&include=%5E(%3F!.*(3x%7CIPv4%20Stream)).*(Large%7C%E6%B8%AF%7CHK%7CHong%20Kong).*%24&emoji=true&list=false&tfo=false&fdn=false&sort=false&udp=true&new_name=true"
     path: ./DolphinCloud-HK-Large.yaml
     interval: 21600
     health-check:
@@ -25,7 +25,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   DolphinCloud-HK-Lil:
     type: http
-    url: "https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Frss-node.com%2Flink%2FJFeFvvq4zEEEJ3Vi%3Fmu%3D1&insert=false&include=%5E(%3F!.*(Large%7CPlay%7C%E5%8F%B0%7C%E6%97%A5%E6%9C%AC%7C%E7%BE%8E%7C%E5%9D%A1%7C%E9%9F%A9)).*(Lil%7C%E6%B8%AF%7CHK%7CHong%20Kong).*%24&emoji=true&list=false&tfo=false&fdn=false&sort=false&udp=true&new_name=true"
+    url: "https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Frss-node.com%2Flink%2FJFeFvvq4zEEEJ3Vi%3Fmu%3D1&insert=false&include=%5E(%3F!.*(3x%7CIPv4%20Stream)).*(Lil%7C%E6%B8%AF%7CHK%7CHong%20Kong).*%24&emoji=true&list=false&tfo=false&fdn=false&sort=false&udp=true&new_name=true"
     path: ./DolphinCloud-HK-Lil.yaml
     interval: 21600
     health-check:
@@ -35,7 +35,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   DolphinCloud-JP-Large:
     type: http
-    url: "https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Frss-node.com%2Flink%2FJFeFvvq4zEEEJ3Vi%3Fmu%3D1&insert=false&include=%5E(%3F!.*(Large%7CPlay%7C%E5%8F%B0%7C%E6%97%A5%E6%9C%AC%7C%E7%BE%8E%7C%E5%9D%A1%7C%E9%9F%A9)).*(Large%7C%E6%97%A5%E6%9C%AC%7C%E5%B7%9D%E6%97%A5%7C%E4%B8%9C%E4%BA%AC%7C%E5%A4%A7%E9%98%AA%7C%E6%B3%89%E6%97%A5%7C%E5%9F%BC%E7%8E%89%7C%E6%B2%AA%E6%97%A5%7C%E6%B7%B1%E6%97%A5%7C%5B%5E-%5D%E6%97%A5%7CJP%7CJapan).*%24&emoji=true&list=false&tfo=false&fdn=false&sort=false&udp=true&new_name=true"
+    url: "https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Frss-node.com%2Flink%2FJFeFvvq4zEEEJ3Vi%3Fmu%3D1&insert=false&include=(Large%7C%E6%97%A5%E6%9C%AC%7C%E5%B7%9D%E6%97%A5%7C%E4%B8%9C%E4%BA%AC%7C%E5%A4%A7%E9%98%AA%7C%E6%B3%89%E6%97%A5%7C%E5%9F%BC%E7%8E%89%7C%E6%B2%AA%E6%97%A5%7C%E6%B7%B1%E6%97%A5%7C%5B%5E-%5D%E6%97%A5%7CJP%7CJapan)&emoji=true&list=false&tfo=false&fdn=false&sort=false&udp=true&new_name=true"
     path: ./DolphinCloud-JP-Large.yaml
     interval: 21600
     health-check:
@@ -45,7 +45,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   DolphinCloud-JP-Lil:
     type: http
-    url: "https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Frss-node.com%2Flink%2FJFeFvvq4zEEEJ3Vi%3Fmu%3D1&insert=false&include=%5E(%3F!.*(Large%7CPlay%7C%E5%8F%B0%7C%E6%97%A5%E6%9C%AC%7C%E7%BE%8E%7C%E5%9D%A1%7C%E9%9F%A9)).*(Lil%7C%E6%97%A5%E6%9C%AC%7C%E5%B7%9D%E6%97%A5%7C%E4%B8%9C%E4%BA%AC%7C%E5%A4%A7%E9%98%AA%7C%E6%B3%89%E6%97%A5%7C%E5%9F%BC%E7%8E%89%7C%E6%B2%AA%E6%97%A5%7C%E6%B7%B1%E6%97%A5%7C%5B%5E-%5D%E6%97%A5%7CJP%7CJapan).*%24&emoji=true&list=false&tfo=false&fdn=false&sort=false&udp=true&new_name=true"
+    url: "https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Frss-node.com%2Flink%2FJFeFvvq4zEEEJ3Vi%3Fmu%3D1&insert=false&include=(Lil%7C%E6%97%A5%E6%9C%AC%7C%E5%B7%9D%E6%97%A5%7C%E4%B8%9C%E4%BA%AC%7C%E5%A4%A7%E9%98%AA%7C%E6%B3%89%E6%97%A5%7C%E5%9F%BC%E7%8E%89%7C%E6%B2%AA%E6%97%A5%7C%E6%B7%B1%E6%97%A5%7C%5B%5E-%5D%E6%97%A5%7CJP%7CJapan)&emoji=true&list=false&tfo=false&fdn=false&sort=false&udp=true&new_name=true"
     path: ./DolphinCloud-JP-Lil.yaml
     interval: 21600
     health-check:
@@ -155,18 +155,8 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   DolphinCloud-Game:
     type: http
-    url: "https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Frss-node.com%2Flink%2FJFeFvvq4zEEEJ3Vi%3Fmu%3D1&insert=false&include=(Play)&emoji=true&list=false&tfo=false&fdn=false&sort=false&udp=true&new_name=true"
+    url: "https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Frss-node.com%2Flink%2FJFeFvvq4zEEEJ3Vi%3Fmu%3D1&insert=false&include=(遊戲專用)&emoji=true&list=false&tfo=false&fdn=false&sort=false&udp=true&new_name=true"
     path: ./DolphinCloud-Game.yaml
-    #interval: 21600
-    #health-check:
-      #enable: true
-      #interval: 300
-      #lazy: true
-      #url: http://www.gstatic.com/generate_204
-  NetEaseMusic:
-    type: http
-    url: "https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Frss-node.com%2Flink%2FJFeFvvq4zEEEJ3Vi%3Fmu%3D1&insert=false&include=(%E7%BD%91%E6%98%93%7C%E9%9F%B3%E4%B9%90%7C%E8%A7%A3%E9%94%81%7CMusic%7CNetEase)&emoji=true&list=false&tfo=false&fdn=false&sort=false&udp=true&new_name=true"
-    path: ./NetEaseMusic.yaml
     #interval: 21600
     #health-check:
       #enable: true
@@ -379,11 +369,11 @@ proxy-groups:
       - ♻️ 自动选择
       - 🚀 手动切换
       - 🎯 全球直连
-  - name: 🎦 奈飞原生节点
+  - name: 🎦 佩奇影业
     type: select
     proxies:
       - 🎯 全球直连
-      - 🎦 奈飞原生节点
+      - 🎦 Emby节点
       - 🇺🇲 美国节点 Large
       - 🇺🇲 美国节点 Lil
       - 🚀 手动切换
@@ -417,7 +407,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🚀 手动切换
-      - 🎯 全球直连
+      - DIRECT
   - name: 📡 港澳台开关
     type: select
     proxies:
@@ -501,8 +491,6 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
-    use:
-      - NetEaseMusic
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -618,7 +606,7 @@ proxy-groups:
     #tolerance: 100
     use:
       - DolphinCloud-NF-Lil
-  - name: 🎦 奈飞原生节点
+  - name: 🎦 Emby节点
     type: select
     #url: http://www.gstatic.com/generate_204
     #interval: 3600
@@ -1057,7 +1045,7 @@ rules:
   - RULE-SET,ENLISTED,🗄 切服
   - RULE-SET,YouTube,📹 油管视频
   - RULE-SET,Netflix,🎥 奈飞视频
-  - RULE-SET,Emby,🎦 奈飞原生节点
+  - RULE-SET,Emby,🎦 佩奇影业
   - RULE-SET,Bahamut,📺 巴哈姆特
   - RULE-SET,StreamingSE,📡 港澳台开关
   - RULE-SET,Bilibili,📺 哔哩哔哩
