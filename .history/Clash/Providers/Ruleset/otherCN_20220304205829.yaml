@@ -9,9 +9,9 @@ payload:
   - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN-SUFFIX,edddh.com
   - DOMAIN-SUFFIX,wechat.com
-  - DOMAIN-SUFFIX,67373club
   - DOMAIN,mail.139.com
   - DOMAIN,scdown.tcdn.qq.com
+  - DOMAIN-SUFFIX,67373club
   - IP-CIDR,101.32.104.4/32,no-resolve
   - IP-CIDR,101.32.104.41/32,no-resolve
   - IP-CIDR,101.32.104.56/32,no-resolve
