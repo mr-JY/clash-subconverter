@@ -1,6 +1,0 @@
-payload:
-  # 内容：DouyuPlus 斗鱼补充
-  # 数量：3条
-  - DOMAIN-SUFFIX,dz11.com
-  - DOMAIN-SUFFIX,douyucdn.cn
-  - DOMAIN-SUFFIX,douyuscdn.com

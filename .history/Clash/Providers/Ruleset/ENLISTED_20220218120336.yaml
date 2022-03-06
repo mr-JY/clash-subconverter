@@ -1,8 +1,0 @@
-payload:
-  # 内容：ENLISTED
-  # 数量：4条
-  - DOMAIN-SUFFIX,enlisted.net
-  - DOMAIN-SUFFIX,easyanticheat.net
-  - DOMAIN-SUFFIX,eac-cdn.com
-  - DOMAIN-SUFFIX,warthunder.com
-  # - DOMAIN-SUFFIX,gaijin.net
