@@ -10,7 +10,7 @@ payload:
   - DOMAIN-SUFFIX,edddh.com
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,lightnovel.app
-  #TG_OtakuDrive音乐站
+#TG_OtakuDrive音乐站
   - DOMAIN-SUFFIX,blueseamusics.com
   - DOMAIN,mail.139.com
   - DOMAIN,scdown.tcdn.qq.com
