@@ -1,6 +1,6 @@
 payload:
   # 内容：otherCN
-  # 数量：20条
+  # 数量：21条
   - DOMAIN-SUFFIX,dota2.com
   - DOMAIN-SUFFIX,acgdmzy.com
   - DOMAIN-SUFFIX,ximalaya.com
@@ -9,7 +9,10 @@ payload:
   - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN-SUFFIX,edddh.com
   - DOMAIN-SUFFIX,wechat.com
-  - DOMAIN-SUFFIX,67373.club
+  - DOMAIN-SUFFIX,lightnovel.app
+  - DOMAIN-SUFFIX,conoret.com
+  #TG_OtakuDrive音乐站
+  - DOMAIN-SUFFIX,blueseamusics.com
   - DOMAIN,mail.139.com
   - DOMAIN,scdown.tcdn.qq.com
   - IP-CIDR,101.32.104.4/32,no-resolve
