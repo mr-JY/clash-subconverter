@@ -34,9 +34,10 @@ payload:
   - DOMAIN,movie.xeton.dev
   - DOMAIN,servers.xeton.dev
 
-  # > 流媒体emby-Otaku体验服
+  # > 流媒体emby-Otaku体验服(重开bluesea)
   - DOMAIN,emby.otakudrive.life
   - DOMAIN,emby2.otakudrive.life 
+  - DOMAIN,emby-pub1.blueseacdn.com
 
   # > 流媒体emby-jmsooo体验服
   - DOMAIN,agahk1.jmsooo.com
