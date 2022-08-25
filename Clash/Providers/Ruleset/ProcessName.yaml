@@ -6,4 +6,9 @@ payload:
   #- DOMAIN-SUFFIX,eac-cdn.com
   #- DOMAIN-SUFFIX,warthunder.com
   #- DOMAIN-SUFFIX,gaijin.net
+
+#全境封锁1
   - PROCESS-NAME,TheDivision.exe
+
+#命运2
+  - PROCESS-NAME,destiny2.exe
