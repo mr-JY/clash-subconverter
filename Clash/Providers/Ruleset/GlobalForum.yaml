@@ -4,3 +4,6 @@ payload:
   # - DOMAIN-SUFFIX,lightnovel.app
   - DOMAIN-SUFFIX,zodgame.xyz
   #- DOMAIN-SUFFIX,pcgamestorrents.com
+
+  #AKB索引
+  - DOMAIN-SUFFIX,wiki.akbfun48.com
