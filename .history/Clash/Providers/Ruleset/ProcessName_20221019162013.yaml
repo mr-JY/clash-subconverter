@@ -7,8 +7,16 @@ payload:
   #- DOMAIN-SUFFIX,warthunder.com
   #- DOMAIN-SUFFIX,gaijin.net
 
+#Ubisoft Launcher
+  - PROCESS-NAME,UplayWebCore.exe
+  - PROCESS-NAME,upc.exe
+
 #全境封锁1
   - PROCESS-NAME,TheDivision.exe
 
 #命运2
   - PROCESS-NAME,destiny2.exe
+  - PROCESS-NAME,BEService.exe
+
+#OW2
+  - PROCESS-NAME,Overwatch.exe

@@ -17,3 +17,6 @@ payload:
 #命运2
   - PROCESS-NAME,destiny2.exe
   - PROCESS-NAME,BEService.exe
+
+#OW2
+  - PROCESS-NAME,Overwatch.exe
