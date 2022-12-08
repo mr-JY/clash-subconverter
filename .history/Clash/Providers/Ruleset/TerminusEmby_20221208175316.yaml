@@ -6,4 +6,8 @@ payload:
   - DOMAIN,pub1cm1.emby.wtf
   - DOMAIN,pub2cm1.emby.wtf
   - DOMAIN,pub3cm1.emby.wtf
+  
+  #Bluesea Emby
+  - DOMAIN,bsem.ddns.me
+  
   # - IP-CIDR,38.94.111.238/32
