@@ -5,5 +5,8 @@ payload:
   - DOMAIN-SUFFIX,zodgame.xyz
   #- DOMAIN-SUFFIX,pcgamestorrents.com
 
+  #workona插件
+  - DOMAIN-KEYWORD,workona
+
   #AKB索引
   - DOMAIN-SUFFIX,wiki.akbfun48.com
