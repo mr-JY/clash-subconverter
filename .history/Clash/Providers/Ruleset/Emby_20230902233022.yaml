@@ -84,3 +84,8 @@ payload:
   - DOMAIN,hk.jmsooo.com
   - DOMAIN,sg.jmsooo.com
   - DOMAIN,ha.jmsooo.com
+  - DOMAIN,jms1.emby.pro
+
+  # > Dolphin Emby (前身Bluesea Emby)
+  - DOMAIN,bsem.ddns.me
+  - DOMAIN,public.emby.ws
