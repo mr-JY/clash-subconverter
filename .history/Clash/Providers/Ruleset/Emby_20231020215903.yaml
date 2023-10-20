@@ -89,3 +89,10 @@ payload:
   # > Dolphin Emby (前身Bluesea Emby)
   - DOMAIN,bsem.ddns.me
   - DOMAIN,public.emby.ws
+  - DOMAIN,cm.emby.ws
+  - DOMAIN,ct.emby.ws
+  - DOMAIN,cu.emby.ws
+
+  # > MisakaF Emby 
+  - DOMAIN,emby.misakaf.org 
+  - DOMAIN,cdn.misakaf.org
