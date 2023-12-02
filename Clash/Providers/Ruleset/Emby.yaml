@@ -92,6 +92,4 @@ payload:
   - DOMAIN,cm.emby.ws
   - DOMAIN,ct.emby.ws
   - DOMAIN,cu.emby.ws
-
-  # > MisakaF Emby 
-  - DOMAIN-SUFFIX,misakaf.org
+  
