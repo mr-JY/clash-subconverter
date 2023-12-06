@@ -1,7 +1,5 @@
 payload:
   # 内容：海外论坛
-  #workona插件
-  - DOMAIN-KEYWORD,workona
   # - DOMAIN-SUFFIX,lightnovel.app
   - DOMAIN-SUFFIX,zodgame.xyz
   #- DOMAIN-SUFFIX,pcgamestorrents.com
@@ -10,6 +8,8 @@ payload:
   - DOMAIN,int.taobaocdn1.cc
   - DOMAIN,int.taobaocdn7.cc
   - DOMAIN,int.taobaocdn8.cc
+  #workona插件
+  - DOMAIN-KEYWORD,workona
   #AKB索引
   - DOMAIN-SUFFIX,wiki.akbfun48.com
   #DeepL
@@ -18,5 +18,3 @@ payload:
   - DOMAIN-SUFFIX,grammarly.com
   #raindrop书签插件
   - DOMAIN-SUFFIX,raindrop.io
-  #周刊文春
-  - DOMAIN-SUFFIX,bunshun.jp
