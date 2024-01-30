@@ -11,24 +11,18 @@ payload:
   - DOMAIN-SUFFIX,emby.mdss.cloud
   # > 流媒体emby-ytoo服务器
   - DOMAIN-SUFFIX,emby.ytoo.li
-  # > 流媒体emby-w8ves服务器
+  # > 流媒体emby-w8ves/WaveCloud服务器
   - DOMAIN-SUFFIX,embyserver.ga
   # > 流媒体emby-prpr服务器
   - DOMAIN-SUFFIX,emby.prprcloud.com
   # > 流媒体emby-nyancat服务器
   - DOMAIN-SUFFIX,emby.nyancat.net
-  # > 流媒体emby-Plus体验服
-  - DOMAIN-SUFFIX,emby.plusmedia.site
-  - DOMAIN-SUFFIX,emby-cf.plusmedia.site
-  - DOMAIN-SUFFIX,emby.xeton.dev
-  - DOMAIN-SUFFIX,jellyfin.xeton.dev
-  - DOMAIN-SUFFIX,movie.xeton.dev
-  - DOMAIN-SUFFIX,servers.xeton.dev
   # > 流媒体emby-Otaku体验服(重开bluesea)
   - DOMAIN-SUFFIX,emby.otakudrive.life
   - DOMAIN-SUFFIX,emby2.otakudrive.life
   - DOMAIN-SUFFIX,emby-pub1.blueseacdn.com
   # > 流媒体emby-jmsooo卷毛鼠服务器
+  - DOMAIN-KEYWORD,jmsooo
   - DOMAIN-SUFFIX,agahk1.jmsooo.com
   - DOMAIN-SUFFIX,agasg1.jmsooo.com
   - DOMAIN-SUFFIX,agajp1.jmsooo.com
@@ -36,12 +30,6 @@ payload:
   - DOMAIN-SUFFIX,ntt1.jmsooo.com
   - DOMAIN-SUFFIX,hinet.jmsooo.com
   - DOMAIN-SUFFIX,cf1.jmsooo.com
-  - DOMAIN-SUFFIX,agasg1.jmsooo.com
-  - DOMAIN-SUFFIX,agajp1.jmsooo.com
-  - DOMAIN-SUFFIX,aws.jmsooo.com
-  - DOMAIN-SUFFIX,ntt1.jmsooo.com
-  - DOMAIN-SUFFIX,hinet.jmsooo.com
-  - DOMAIN-SUFFIX,jmsooo.com
   - DOMAIN-SUFFIX,cf.jmsooo.com
   - DOMAIN-SUFFIX,hk.jmsooo.com
   - DOMAIN-SUFFIX,sg.jmsooo.com
@@ -52,6 +40,7 @@ payload:
   # > 流媒体IMM服务器
   - DOMAIN-SUFFIX,emby.immtel.com
   # > 流媒体Odyssey服务器
+  - DOMAIN-KEYWORD,odysseyplus
   - DOMAIN-SUFFIX,cf.odysseyplus.site
   - DOMAIN-SUFFIX,agahk.odysseyplus.site
   - DOMAIN-SUFFIX,agasg.odysseyplus.site
@@ -68,8 +57,7 @@ payload:
   - DOMAIN-SUFFIX,jellyfin.xeton.dev
   - DOMAIN-SUFFIX,movie.xeton.dev
   - DOMAIN-SUFFIX,servers.xeton.dev
-  # > 流媒体WaveCloud服务器
-  - DOMAIN-SUFFIX,embyserver.ga
+  - DOMAIN-SUFFIX,plusmedia.site
   # > Dolphin Emby (前身Bluesea Emby)
   - DOMAIN-SUFFIX,bsem.ddns.me
   - DOMAIN-SUFFIX,public.emby.ws
@@ -105,8 +93,6 @@ payload:
   - DOMAIN-SUFFIX,dicarerhome.com
   - DOMAIN-SUFFIX,emby77.cf
   - DOMAIN-SUFFIX,embyplus.org
-  - IP-CIDR,188.172.228.49/32
-  - IP-CIDR,202.61.255.248/32
   - DOMAIN-SUFFIX,embytv.cf
   - DOMAIN-SUFFIX,zox.show
   - DOMAIN-SUFFIX,acemby.org
@@ -165,3 +151,36 @@ payload:
   - DOMAIN-SUFFIX,ycxdy.top
   - DOMAIN-SUFFIX,reddust.link
   - DOMAIN-SUFFIX,am.sb
+  - DOMAIN,emby.enjoyit.eu.org
+  - DOMAIN-SUFFIX,cristiamo.xyz
+  - DOMAIN-SUFFIX,emby.cristiamo.top
+  - DOMAIN-SUFFIX,emby.cjpc.cc
+  - DOMAIN-SUFFIX,emby.cjpc.tv
+  - DOMAIN-SUFFIX,emby.cjpc.xyz
+  - DOMAIN-SUFFIX,emby.mcwy.me
+  - DOMAIN-SUFFIX,emby.neko.edu.rs
+  - DOMAIN-SUFFIX,emby.ok.edu.hk
+  - DOMAIN-SUFFIX,emby.paoche.ooo
+  - DOMAIN-SUFFIX,mickeycloud.com
+  # > IP ❤️ Emby公益服
+  - IP-CIDR,188.172.228.49/32
+  - IP-CIDR,202.61.255.248/32  
+  # > PROCESS-NAME ❤️ Emby公益服
+  - PROCESS-NAME,com.mb.android
+  # > 树状图-MisakaF公益服
+  - DOMAIN-SUFFIX,789.123456.al
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

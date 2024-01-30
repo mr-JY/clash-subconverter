@@ -167,6 +167,8 @@ payload:
   - IP-CIDR,202.61.255.248/32  
   # > PROCESS-NAME ❤️ Emby公益服
   - PROCESS-NAME,com.mb.android
+  # > 树状图-MisakaF公益服
+  - DOMAIN-SUFFIX,789.123456.al
 
 
 
