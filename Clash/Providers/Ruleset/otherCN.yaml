@@ -4,6 +4,8 @@ payload:
   - DOMAIN-SUFFIX,acgdmzy.com
   - DOMAIN-SUFFIX,ximalaya.com
   - DOMAIN-SUFFIX,xmcdn.com
+  # Topaz Video
+  - DOMAIN-SUFFIX,topazlabs.com
   # - DOMAIN-SUFFIX,videojj.com
   - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN-SUFFIX,edddh.com

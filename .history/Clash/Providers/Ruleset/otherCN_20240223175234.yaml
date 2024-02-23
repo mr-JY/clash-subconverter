@@ -4,7 +4,9 @@ payload:
   - DOMAIN-SUFFIX,acgdmzy.com
   - DOMAIN-SUFFIX,ximalaya.com
   - DOMAIN-SUFFIX,xmcdn.com
-  - DOMAIN-SUFFIX,videojj.com
+  # Topaz Video
+  - DOMAIN-SUFFIX,topazlabs.com
+  # - DOMAIN-SUFFIX,videojj.com
   - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN-SUFFIX,edddh.com
   - DOMAIN-SUFFIX,wechat.com
@@ -15,6 +17,10 @@ payload:
   #PROCESS-NAME
   - PROCESS-NAME,QQ.exe
   # > MisakaF ACA
+  # - DOMAIN-SUFFIX,acaisbest.com
+  # - DOMAIN-SUFFIX,acaisbest.shop
+  # - DOMAIN-SUFFIX,www.aca.best
+  # - DOMAIN-SUFFIX,api.aca.best
   - DOMAIN,103.152.220.102
   #IP-CIDR
   - IP-CIDR,101.32.104.4/32,no-resolve
