@@ -1,0 +1,32 @@
+payload:
+  # 内容：otherCN
+  - DOMAIN-SUFFIX,dota2.com
+  - DOMAIN-SUFFIX,acgdmzy.com
+  - DOMAIN-SUFFIX,ximalaya.com
+  - DOMAIN-SUFFIX,xmcdn.com
+  # - DOMAIN-SUFFIX,videojj.com
+  - DOMAIN-SUFFIX,smtcdns.net
+  - DOMAIN-SUFFIX,edddh.com
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN-SUFFIX,lightnovel.app
+  - DOMAIN,mail.139.com
+  #TG_OtakuDrive音乐站
+  - DOMAIN-SUFFIX,blueseamusics.com
+  #PROCESS-NAME
+  - PROCESS-NAME,QQ.exe
+  # > MisakaF ACA
+  # - DOMAIN-SUFFIX,acaisbest.com
+  # - DOMAIN-SUFFIX,acaisbest.shop
+  # - DOMAIN-SUFFIX,www.aca.best
+  # - DOMAIN-SUFFIX,api.aca.best
+  - DOMAIN,103.152.220.102
+  #IP-CIDR
+  - IP-CIDR,101.32.104.4/32,no-resolve
+  - IP-CIDR,101.32.104.41/32,no-resolve
+  - IP-CIDR,101.32.104.56/32,no-resolve
+  - IP-CIDR,101.32.118.25/32,no-resolve
+  - IP-CIDR,101.32.133.16/32,no-resolve
+  - IP-CIDR,101.32.133.53/32,no-resolve
+  - IP-CIDR,101.32.133.209/32,no-resolve
+  - IP-CIDR,129.226.3.47/32,no-resolve
+  - IP-CIDR,129.226.107.244/32,no-resolve
