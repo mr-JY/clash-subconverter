@@ -20,3 +20,9 @@ payload:
 
 #OW2
   - PROCESS-NAME,Overwatch.exe
+
+#IPTV
+  - PROCESS-NAME,PotPlayerMini64.exe
+
+#Topaz Labs
+  - PROCESS-NAME,Topaz Video AI.exe

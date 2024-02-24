@@ -23,3 +23,6 @@ payload:
 
 #IPTV
   - PROCESS-NAME,PotPlayerMini64.exe
+
+#Topaz Labs
+  - PROCESS-NAME,Topaz Video AI.exe
