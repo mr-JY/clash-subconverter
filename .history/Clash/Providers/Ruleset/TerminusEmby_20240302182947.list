@@ -13,9 +13,9 @@ DOMAIN-SUFFIX,pub3cm1.emby.wtf
 DOMAIN-KEYWORD,embyvip
 DOMAIN-SUFFIX,2333.123456.al
 # IP-CIDR,38.94.111.238/32
-# > 111 垃圾影音 公费服 直连前端 https://raw.githubusercontent.com/zxcll/sub/main/hd.list
-# DOMAIN-SUFFIX,pm.xmsl.org
-# DOMAIN-SUFFIX,free.xmsl.org
+# > 111 垃圾影音 公费服 直连前端
+DOMAIN-SUFFIX,pm.xmsl.org
+DOMAIN-SUFFIX,free.xmsl.org
 # > 太空人 公费服 三网直连
 DOMAIN-SUFFIX,tkremby.xyz
 DOMAIN-SUFFIX,emby.tkremby.xyz
