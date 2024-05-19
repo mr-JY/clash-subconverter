@@ -4,9 +4,8 @@
 # 字体文件（Google Fonts）
 # 字体文件（Google Fonts）
 # Gravatar全球头像
-ajax.googleapis.com
-fonts.googleapis.com
-.gstatic.com
-themes.googleusercontent.com
-.gravatar.com
-services.googleapis.cn
++.googleapis.com
++.gstatic.com
++.googleusercontent.com
++.gravatar.com
++.googleapis.cn
