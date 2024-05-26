@@ -67,6 +67,7 @@ DOMAIN-SUFFIX,cu.emby.ws
 DOMAIN-SUFFIX,embyclub.com
 DOMAIN-SUFFIX,az-hk.embyclub.com
 DOMAIN-SUFFIX,azsgp.embyclub.com
+# > ❤️ Emby服
 DOMAIN-SUFFIX,charontv.com
 DOMAIN-SUFFIX,emby.p-p.men
 DOMAIN-SUFFIX,emby.aiyowei.ml
@@ -174,6 +175,8 @@ DOMAIN-SUFFIX,789.123456.al
 # DOMAIN-SUFFIX,line.xmsl.org
 # > 太空人 公费服 CF线路
 DOMAIN-SUFFIX,emby.tkremby.xyz
+# > Terminus 终点站
+DOMAIN-KEYWORD,emby.wtf
 
 
 
