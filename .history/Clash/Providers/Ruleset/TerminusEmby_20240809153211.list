@@ -21,9 +21,5 @@ IP-CIDR,61.171.70.126/32
 # > 1111垃圾影音好鸭机场服直连线路
 DOMAIN-SUFFIX,1111cuct.niceduck.lol
 DOMAIN-SUFFIX,vi.niceduck.lol
-# > JMS卷毛鼠好鸭机场服直连线路
-DOMAIN-SUFFIX,jms1.niceduck.lol
-DOMAIN-SUFFIX,jms1v6.niceduck.lol
-DOMAIN-SUFFIX,jms2.niceduck.lol
 # > 太空人 公费服 三网直连
 DOMAIN-SUFFIX,tkremby.xyz
