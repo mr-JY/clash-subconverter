@@ -25,5 +25,9 @@ DOMAIN-SUFFIX,1111cuct.niceduck.lol
 DOMAIN-SUFFIX,jms1.niceduck.lol
 DOMAIN-SUFFIX,jms1v6.niceduck.lol
 DOMAIN-SUFFIX,jms2.niceduck.lol
+# > DPX地平线好鸭机场服直连线路
+DOMAIN-SUFFIX,dpx1.niceduck.lol
+DOMAIN-SUFFIX,dpx1v6.niceduck.lol
+DOMAIN-SUFFIX,dpx2.niceduck.lol
 # > 太空人 公费服 三网直连
 DOMAIN-SUFFIX,tkremby.xyz
