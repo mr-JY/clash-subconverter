@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,cf.jmsooo.com
 DOMAIN-SUFFIX,hk.jmsooo.com
 DOMAIN-SUFFIX,sg.jmsooo.com
 DOMAIN-SUFFIX,ha.jmsooo.com
+DOMAIN-SUFFIX,jmsuper.com
 DOMAIN-SUFFIX,jms1.emby.pro
 # > 流媒体pornemby服务器
 DOMAIN-SUFFIX,pornemby.club
@@ -176,10 +177,12 @@ DOMAIN-SUFFIX,789.123456.al
 # > 太空人 公费服 CF线路
 DOMAIN-SUFFIX,emby.tkremby.xyz
 # > Terminus 终点站
-DOMAIN-KEYWORD,emby.wtf
+# DOMAIN-KEYWORD,emby.wtf
+# DOMAIN-SUFFIX,term.wtf
 # > NiceDuck 好鸭机场服（JMS+1111）
-DOMAIN-SUFFIX,e.niceduck.me
-DOMAIN-SUFFIX,cf.niceduck.lol
+# DOMAIN-SUFFIX,e.niceduck.me
+# DOMAIN-SUFFIX,cf.niceduck.lol
+# DOMAIN-SUFFIX,vi.niceduck.lol
 
 
 
