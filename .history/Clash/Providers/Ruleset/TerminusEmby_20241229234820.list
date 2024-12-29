@@ -1,5 +1,6 @@
 # 内容：Terminus 终点站
-DOMAIN-KEYWORD,emby.wtf
+DOMAIN-SUFFIX,emby.wtf
+DOMAIN-SUFFIX,term.wtf
 DOMAIN-SUFFIX,pub1back.emby.wtf
 DOMAIN-SUFFIX,pub2back.emby.wtf
 DOMAIN-SUFFIX,pub3back.emby.wtf

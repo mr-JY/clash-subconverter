@@ -1,14 +1,15 @@
 # 内容：Terminus 终点站
-# DOMAIN-KEYWORD,emby.wtf
-# DOMAIN-SUFFIX,pub1back.emby.wtf
-# DOMAIN-SUFFIX,pub2back.emby.wtf
-# DOMAIN-SUFFIX,pub3back.emby.wtf
-# DOMAIN-SUFFIX,pub1.emby.wtf
-# DOMAIN-SUFFIX,pub2.emby.wtf
-# DOMAIN-SUFFIX,pub3.emby.wtf
-# DOMAIN-SUFFIX,pub1cm1.emby.wtf
-# DOMAIN-SUFFIX,pub2cm1.emby.wtf
-# DOMAIN-SUFFIX,pub3cm1.emby.wtf
+DOMAIN-SUFFIX,emby.wtf
+DOMAIN-SUFFIX,term.wtf
+DOMAIN-SUFFIX,pub1back.emby.wtf
+DOMAIN-SUFFIX,pub2back.emby.wtf
+DOMAIN-SUFFIX,pub3back.emby.wtf
+DOMAIN-SUFFIX,pub1.emby.wtf
+DOMAIN-SUFFIX,pub2.emby.wtf
+DOMAIN-SUFFIX,pub3.emby.wtf
+DOMAIN-SUFFIX,pub1cm1.emby.wtf
+DOMAIN-SUFFIX,pub2cm1.emby.wtf
+DOMAIN-SUFFIX,pub3cm1.emby.wtf
 # > MisakaF EmbyVip
 DOMAIN-KEYWORD,embyvip
 DOMAIN-SUFFIX,2333.123456.al
