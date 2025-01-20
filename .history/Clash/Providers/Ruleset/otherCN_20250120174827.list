@@ -18,6 +18,8 @@ PROCESS-NAME,QQ.exe
 # DOMAIN-SUFFIX,acaisbest.shop
 # DOMAIN-SUFFIX,www.aca.best
 # DOMAIN-SUFFIX,api.aca.best
+# > YanG-1989 TV订阅
+DOMAIN-SUFFIX,tv.iill.top
 IP-CIDR,103.152.220.102/32,no-resolve
 #IP-CIDR
 IP-CIDR,101.32.104.4/32,no-resolve
