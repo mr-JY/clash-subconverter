@@ -22,7 +22,6 @@ PROCESS-NAME,QQ.exe
 DOMAIN-SUFFIX,tv.iill.top
 # > mypikpak 下载
 DOMAIN-KEYWORD,dl-a10b-
-DOMAIN,api-drive.mypikpak.com
 IP-CIDR,103.152.220.102/32,no-resolve
 #IP-CIDR
 IP-CIDR,101.32.104.4/32,no-resolve
