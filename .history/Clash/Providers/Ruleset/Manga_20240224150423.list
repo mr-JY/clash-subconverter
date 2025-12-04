@@ -1,7 +1,0 @@
-payload:
-  # 内容：漫画网站
-  # 数量：3条
-  - DOMAIN-SUFFIX,manhuaren.com
-  - DOMAIN-SUFFIX,vol.moe
-  - PROCESS-NAME,eu.kanade.tachiyomi
-  - PROCESS-NAME,app.mihon
