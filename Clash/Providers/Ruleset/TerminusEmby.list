@@ -32,3 +32,6 @@ DOMAIN-SUFFIX,dpx1v6.niceduck.lol
 DOMAIN-SUFFIX,dpx2.niceduck.lol
 # > 太空人 公费服 三网直连
 DOMAIN-SUFFIX,tkremby.xyz
+# > 非越媒体库 直连线路
+DOMAIN-SUFFIX,x.emby.pro
+DOMAIN-SUFFIX,y.emby.pro
